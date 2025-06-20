@@ -1,0 +1,82 @@
+/* Font class */
+.fira-sans-thin {
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Navbar */
+.title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  /* background-color: #e6f4ef; */
+}
+
+.signin-btn {
+  box-sizing: border-box;
+border: 1px solid rgb(0, 106, 80);
+border-radius: 8px;
+color: rgb(0, 106, 80);
+font-weight: 600;
+font-size: 18px;
+  
+}
+.bd-title{
+font-weight: 700;
+font-size: 32px;
+color: rgb(14, 14, 14);
+}
+
+/* Banner Section */
+.banner-title {
+  width: 1280px;
+  height: 560px;
+  margin: 20px auto;
+  border-radius: 24px;
+  background: rgb(198, 228, 214);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 40px;
+  gap: 20px;
+}
+
+.text-content {
+  max-width: 600px;
+}
+
+.bd-title {
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 10px;
+  text-align: left;
+}
+
+.description {
+  font-size: 56px;
+  font-weight: 700;
+  color: rgb(14, 14, 14);
+  margin-bottom: 30px;
+}
+
+.btn-title {
+  padding: 17px 34px;
+  border-radius: 8px;
+  color: white;
+  background: rgb(0, 106, 80);
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.img-title {
+  width: 500px;
+  height: auto;
+  border-radius: 12px;
+}
