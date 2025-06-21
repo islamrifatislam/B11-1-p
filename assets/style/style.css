@@ -10,8 +10,9 @@
 
 /* Navbar */
 .title {
+  
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   padding: 20px 40px;
   /* background-color: #e6f4ef; */
@@ -258,4 +259,185 @@ select {
   border: 1px solid #ccc;
 }
 
+/* resent section */
+.Resent-title{
+  width: 1280px;
+height: 402px;
+margin: 0 auto;
 
+}
+.p-resent{
+  color: rgba(14, 14, 14, 0.7);
+  font-size: 15px;
+  font-weight: 500;
+}
+.re-news{
+  color:rgb(14, 14, 14);
+  font-size: 40px;
+   font-weight: 700;
+}
+
+/* card */
+.content {
+  width: 1280px;
+  height: 402px;
+  margin: 0 auto;
+  box-sizing: border-box;
+  display: flex;
+  gap: 24px;
+  padding: 20px;
+  align-items: center;   
+  overflow: hidden;      
+}
+
+.img {
+  flex: 0 0 300px;       
+  height: 100%;          
+  border-radius: 24px;
+  object-fit: cover;
+  display: block;
+}
+
+.text {
+  flex: 1 1 auto;        
+  height: 100%;          
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 12px;
+  overflow: auto;        
+}
+
+.btn-title {
+  padding: 10px 20px;
+  background: #4671f0;
+  
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  align-self: flex-start;
+}
+
+/* secon card */
+  .content {
+    width: 1280px;
+    height: 402px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row-reverse; 
+    gap: 24px;
+    padding: 20px;
+    align-items: center;
+    overflow: hidden;
+    margin-top: 50px;
+  }
+
+  .img {
+    flex: 0 0 300px;
+    height: 100%;
+    border-radius: 24px;
+    object-fit: cover;
+    display: block;
+  }
+
+  .text {
+    flex: 1 1 auto;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 12px;
+    overflow: auto;
+  }
+
+  .btn-title {
+    padding: 10px 20px;
+    background: #4671f0;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    align-self: flex-start;
+  }
+  /* Donate section */
+  .donate{
+  width: 1280px;
+height: 464px;
+margin-top: 30px;
+margin: 0 auto;
+display: flex;
+flex-direction: column;
+align-items: center;
+  }
+  .desh{
+    color: rgb(14, 14, 14);
+    font-size: 40px;
+font-weight: 700;
+}
+.p-resent{
+color: rgba(14, 14, 14, 0.7);  
+font-size: 20px;
+font-weight: 400;
+}
+.button-1{
+width: 240px;
+height: 128px;
+box-sizing: border-box;
+border: 1px solid rgba(14, 14, 14, 0.15);
+border-radius: 16px;
+font-size: 40px;
+font-weight: 700;
+background: rgb(255, 255, 255);
+}
+.button-2{
+width: 240px;
+height: 128px;
+box-sizing: border-box;
+border: 1px solid rgba(14, 14, 14, 0.15);
+border-radius: 16px;
+font-size: 40px;
+font-weight: 700;
+ background-color: (198, 228, 214);
+}
+.button-3{
+width: 240px;
+height: 128px;
+box-sizing: border-box;
+border: 1px solid rgba(66, 64, 64, 0.15);
+border-radius: 16px;
+font-size: 40px;
+font-weight: 700;
+background: rgb(66, 54, 54);
+}
+.button-4{
+width: 240px;
+height: 128px;
+box-sizing: border-box;
+border: 1px solid rgba(14, 14, 14, 0.15);
+border-radius: 16px;
+font-size: 40px;
+font-weight: 700;
+background: rgb(59, 116, 113);
+}
+.button-last{
+  width: 1280px;
+height: 464px; 
+margin: 0 auto;
+display: flex;
+align-items: center;
+justify-content: space-around;
+}
+.other-button{
+  width: 1032px;
+height: 64px;
+box-sizing: border-box;
+border: 1px solid rgba(14, 14, 14, 0.15);
+background: rgb(255, 255, 255);
+font-size: 20px;
+font-weight: 400;
+flex-direction: row;
+align-items: center;
+padding: 20px 40px 20px 40px;
+}
