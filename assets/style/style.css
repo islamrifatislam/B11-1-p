@@ -198,3 +198,64 @@ color: rgb(255, 255, 255);
   font-size: 16px;
   color: #555;
 }
+/* video section */
+.video-wrapper {
+  display: flex;
+  gap: 20px; 
+  justify-content: space-between; 
+  
+  margin-top: 30px;
+  max-width: 1280px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.video iframe {
+  width: 560px;
+  height: 315px;
+  border: none;
+}
+
+/* table section */
+
+
+.opinion-section {
+  background-color: white;
+  padding: 30px;
+  width: 1280px;
+height: 409px;
+  margin: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  margin-top: 40px;
+}
+
+.opinion-section h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  text-align: left;
+  padding: 12px;
+  border-bottom: 1px solid #ddd;
+}
+
+th {
+  background-color: #e3f2fd;
+  color: #333;
+}
+
+select {
+  padding: 6px 10px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+
